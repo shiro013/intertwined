@@ -1,0 +1,33 @@
+# .gitignore
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+.gradle/
+local.properties
+*.keystore
+*.jks
+
+# iOS
+.generated/
+Pods/
+DerivedData/
+*.mode1v3
+*.mode1v4
+*.mode1v5
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Environment / Secrets
+.env
+lib/core/config.dart
+lib/core/supabase_client.dart
